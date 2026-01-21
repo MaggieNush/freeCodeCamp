@@ -117,17 +117,16 @@ print("\n=== View All Available Books ===")
 print(view_available_books(library))
 
 print("=== Checkout Books ===")
-print(checkout_book(library, "bk001"))  # Checkout Things Fall Apart
-print(checkout_book(library, "BK002"))  # Checkout Weep Not Child
-print(checkout_book(library, "bk001"))  # Try checking out again
+print(checkout_book(library, "bk001"))  
+print(checkout_book(library, "BK002"))  
+print(checkout_book(library, "bk001"))  
 
 print("\n=== View Available Books After Checkout ===")
 print(view_available_books(library))
 
 print("=== Return Books ===")
-print(return_book(library, "BK001"))  # Return Things Fall Apart
-print(return_book(library, "bk001"))  # Try returning again
-
+print(return_book(library, "BK001"))  
+print(return_book(library, "bk001"))  
 print("\n=== View Available Books After Return ===")
 print(view_available_books(library))
 
